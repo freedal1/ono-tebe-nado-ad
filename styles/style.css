@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 0 92px;
+  padding: 90px 50px;
   font-family: Raleway, sans-serif;
 }
 
@@ -18,6 +18,7 @@
 
 .menu__item {
   list-style: circle;
+  margin-left: -9px;
 }
 
 .menu__item:first-child {
@@ -236,7 +237,7 @@
 
 .about__columns {
   display: grid;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 300px 1fr;
   gap: 25px;
   align-items: start;
 }
@@ -355,4 +356,12 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
+}
+
+.cover,
+.lots,
+.about {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
